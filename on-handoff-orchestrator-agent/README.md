@@ -55,7 +55,7 @@ Scalable AI pipeline modeling
 ________________________________________________________________________________________________________________________
 
 
-## 🤖 Customer Support Agent Handoff System
+# 🤖 Customer Support Agent Handoff System
 
 This project demonstrates how to build a modular, intelligent **multi-agent customer support system** using the OpenAI-compatible Agents SDK and Gemini model. The system can **delegate customer queries** to appropriate specialist agents (like Billing or Refund) and includes custom behavior using the `on_handoff()` callback.
 
@@ -65,7 +65,7 @@ This project demonstrates how to build a modular, intelligent **multi-agent cust
 
 Yeh code aik **Customer Support Orchestrator Agent** banata hai jo user ka query analyze karta hai, aur usay relevant agent (Billing ya Refund) ko **handoff** karta hai. Jab handoff hota hai, hum custom logging bhi karte hain taake pata chale ke handoff kab aur kahan hua.
 
-Iska faida yeh hai ke:
+"""Iska faida yeh hai ke:"""
 - Aik centralized agent multiple agents ko manage kar sakta hai.
 - Har agent apna kaam specialize tareeqe se karta hai (Separation of Concerns).
 - Custom logging ya notifications trigger kiye ja sakte hain via `on_handoff()`.
@@ -84,7 +84,7 @@ This system can be useful in:
 
 ---
 
-## 🧠 Architecture
+# 🧠 Architecture
 
 ```text
                ┌────────────────────┐
@@ -149,4 +149,5 @@ Async I/O for smooth agent orchestration
 
 
 📜 License
+
 This project is licensed under the MIT License.
